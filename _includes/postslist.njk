@@ -1,9 +1,37 @@
 {%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
-<ol reversed class="postlist">
+
 {% for post in postslist | reverse %}
-	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
-	</li>
+
+<div class="post">
+<div class="topbarpost">
+	<div class="fleft"> 
+
+  {%if post.data.tags.length>1 %}
+  <i>in</i>
+  {%- for tag in post.data.tags -%}
+	{% if loop.index0 > 0 %} 	{#skip 'posts' tag#}
+    	<a href="/tags/{{ tag }}" rel="category tag">{{ tag }}</a>{% if loop.index0+1<post.data.tags.length %},{%endif%}
+  {% endif %} {%- endfor -%}
+{% endif %}
+	</div>
+
+	<div class="fright"><span class="postdate">{{ post.date | readableDate("LLLL yyyy") }}</span></div>
+</div>
+
+<div class="postcontent">
+	{% if post.data.image %}
+	<div class="thumb thumbleft">
+	{# image "../"+post.inputPath+"/../"+post.data.image, "", [300, 500], "35vw" #}
+	{% image eleventy.env.root+"/"+post.inputPath+"/../"+post.data.image, "", [300, 500], "35vw" %}
+	</div>
+	{% endif %}
+
+	<h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+
+        {% if post.data.excerpt %}
+	<p>{{ post.data.excerpt }} <a href="{{ post.url }}">[…]</a></p>
+	{% endif %}
+</div>
+
+</div>
 {% endfor %}
-</ol>

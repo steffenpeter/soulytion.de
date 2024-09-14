@@ -10,6 +10,9 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -18,6 +21,7 @@ module.exports = function(eleventyConfig) {
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets

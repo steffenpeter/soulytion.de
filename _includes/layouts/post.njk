@@ -1,28 +1,41 @@
 ---
 layout: layouts/base.njk
 ---
-{# Only include the syntax highlighter CSS on blog posts #}
+{# Only include the syntax highlighter CSS on blog posts 
 {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %}
 {%- css %}{% include "public/css/prism-diff.css" %}{%- endcss %}
-<h1>{{ title }}</h1>
+#}
+<div class="postbox">
+<div class="topbarpost">
+	<div class="fleft"> 
 
-<ul class="post-metadata">
-	<li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
-	{%- for tag in tags | filterTagList %}
-	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
-	{%- endfor %}
-</ul>
+  {%if tags.length>1 %}
+  <i>in</i>
+  {%- for tag in tags -%}
+	{% if loop.index0 > 0 %} 	{#skip 'posts' tag#}
+    	<a href="/tags/{{ tag }}" rel="category tag">{{ tag }}</a>{% if loop.index0+1<tags.length %},{%endif%}
+  {% endif %} {%- endfor -%}
+{% endif %}
+	</div>
+
+	<div class="fright"><span class="postdate">{{ date | readableDate("LLLL yyyy") }}</span></div>
+</div>
+
+	<div class="postcontent">
+
+<h2>{{ title }}</h2>
 
 {{ content | safe }}
+	</div> 
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
 {%- set nextPost = collections.posts | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
+<div class="topbarpost">
+	{%- if previousPost %}<div class="fleft"> Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></div>{% endif %}
+	{%- if nextPost %}<div class="fright"> Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></div>{% endif %}
+</div>
 {%- endif %}
 {%- endif %}
+	</div> 
