@@ -4,7 +4,27 @@ eleventyNavigation:
   key: Archive
   order: 2
 ---
-<h1>Archive</h1>
+<h1>All Tags:</h1>
+
+<p>
+{% for tag in collections.all | getAllTags | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+
+	{% set num %}0{% endset %}
+	{%- for tag2, posts2 in collections | dictsort %}
+		{%if tag2 == tag %}
+			{% set num %}{{ posts2 | length }}{% endset %}
+		{% endif %}
+	{%- endfor %}
+
+	<a href="{{ tagUrl }}" class="post-tag">{{ tag }} ({{ num }})</a>,
+
+{% endfor %}
+</p>
+</br>
+</br>
+
+<h1>All Posts:</h1>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}

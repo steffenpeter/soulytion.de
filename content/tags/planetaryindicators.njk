@@ -1,0 +1,42 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Planetary Indicators
+  order: 0
+---
+{% set tag = "planetaryindicators" %}
+
+<div id="post-125" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-research category-tradestation">
+		<div class="topbarpost">
+				<div class="fleft">PLANETARY INDICATORS</div>
+		</div>
+		<div class="postcontent">
+
+<h2>Planetary Indicators</h2>
+												<p><p>PlanetaryIndicators is a indicator package for TradeStation developed in cooperation with <a href="http://www.planetaryindicators.com/">www.planetaryindicators.com</a>. The package contains several indicators showing planetary lines, planetary aspects, ingresses, natal comparison charts, eclipses. It allows to filter planetary postions and is an easy way to test approaches written by experts, but also to develop own ideas.</p>
+<h3>Download PlanetaryIndicators for TradeStation</h3>
+<ul>
+<li><a href="/upload/PlanetaryIndicators10.msi">PlanetaryIndicators10.msi (Windows Install file, 2.4MB) </a></li>
+<li><a href="/upload/PlanetaryIndicators10.zip"> PlanetaryIndicators10.ZIP (same file, just ZIPed, 2.2MB)</a></li>
+<li><a href="/upload/manual_planetaryindicators.pdf"> Manual and install instructions (PDF file, 0.9MB)</a></li>
+</ul>
+<p>The embedded license manager allows a 30 days trial for free. (can be extended on request) A first version of the package for TS2000i can be downloaded here:</p>
+<ul>
+<li><a href="/upload/PLANETARYINDICATORS2K10.ELS"> PLANETARYINDICATORS2K10.ELS (ELS indicator package, 0.06MB)</a></li>
+</ul>
+<p>The main package has to be installed. The TS2000k version does not yet contain all indicators. The <a href="/archives/74">programming interface</a> for own developments is included. Below you can find some example applications of the indicators.</p>
+</p>
+
+<p>&nbsp;</p>
+
+		</div>
+		</div>
+
+{% set postslist = collections[ tag ] %}
+{% include "postslist.njk" %}
+
+{# set tf = "./_includes/tags/"+tag | slugify+".md" #}
+{# renderFile tf #}
+{# include tf ignore missing #}
+
+<p>See <a href="/tags/">all tags</a>.</p>

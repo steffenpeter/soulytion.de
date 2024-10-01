@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>soulytion.de  &raquo; EURUSD and heliocentric Bradley</title>
+
+<meta name="generator" content="WordPress ?>" /> <!-- leave this for stats -->
+<meta name="robots" content="FOLLOW" /> 
+<meta http-equiv="content-language" content="en" /> 
+<meta name="publisher" content="Steffen Peter" /> 
+<meta name="author" content="Steffen Peter" /> 
+<meta name="description" content="Ideas, Indicators and Trading Systems for  TradeStation and TradeSignal, based on Astro and Timing, 
+
+
+
+" /> 
+<meta name="keywords" content="Tradestation, TradeSignal, development, souly, Indicators, Astro, Astrology, Planets" /> 
+<meta name="copyright" content="Steffen Peter" /> 
+
+
+<link rel="stylesheet" href="http://soulytion.de/wp-content/themes/default/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="soulytion.de RSS Feed" href="http://soulytion.de/feed/" />
+<link rel="pingback" href="http://soulytion.de/xmlrpc.php" />
+
+
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://soulytion.de/xmlrpc.php?rsd" />
+<script type='text/javascript' src='http://soulytion.de/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+	<script type="text/javascript">
+	// ajaxlogin settings
+	var al_timeout = 1000;
+	var al_redirectOnLogin = '';
+
+	// constants
+	var al_base_uri = 'http://soulytion.de';
+	var al_success = '1';
+	var al_failure = '0';
+
+	</script>
+	<script type="text/javascript" src="http://soulytion.de/wp-content/plugins/ajax-login/ajaxlogin.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://soulytion.de/wp-content/plugins/wp-recaptcha/recaptcha.css" /></head>
+<body>
+<div id="page">
+
+
+
+<div id="header">
+	<div id="headerimg">
+		<h1><a href="http://soulytion.de/">soulytion.de</a></h1>
+		<div class="description">souly&#8217;s coding-for-trading solutions</div>
+	
+	<ul id="pagine">
+		<li><a href="http://soulytion.de/" title="soulytion.de">Home page</a></li>
+<!---		<li class="page_item"><a href="http://soulytion.de/downloads/" title="Downloads">Downloads</a></li>
+<li class="page_item"><a href="http://soulytion.de/impressum/" title="Impressum / contact">Impressum / contact</a></li>
+ --->
+			<li><a href="http://soulytion.de/archives/category/astro/" title="View all posts filed under Astro">Astro</a>
+</li>
+	<li><a href="http://soulytion.de/archives/category/planetaryindicators/" title="View all posts filed under PlanetaryIndicators">PlanetaryIndicators</a>
+</li>
+	<li><a href="http://soulytion.de/archives/category/tradestation/" title="View all posts filed under TradeStation">TradeStation</a>
+</li>
+	</ul>
+	
+	
+<div id="headerlogin">
+              
+	</div>
+        	
+	</div>
+	
+</div>
+<hr />
+
+	<div id="content" class="widecolumn">
+
+	
+		<div class="navigation">
+			<div class="alignleft">&laquo; <a href="http://soulytion.de/archives/52">Example: S&#038;P500 Future (@ES) with geocentric Elements</a></div>
+			<div class="alignright"><a href="http://soulytion.de/archives/56">Indication of Planetary Retrograde Movement</a> &raquo;</div>
+		</div>
+
+		<div class="post" id="post-54">
+			<h2><a href="http://soulytion.de/archives/54" rel="bookmark" title="Permanent Link: EURUSD and heliocentric Bradley">EURUSD and heliocentric Bradley</a></h2>
+
+			<div class="entry">
+				<p>Our old friend the Bradley Siderograph is also partÂ of the Planetaryindicator package.</p>
+<p>Â The chart shows the heliocentric default Bradley and the EUR/USD. Apperntly they&#8217;ve had good correlation. Interesting that next week will be the high of the year in the indicator. Does it mean EUR/USD will turn down for good?</p>
+<p align="center"><a href="http://soulytion.de/wp-content/uploads/2009/08/eurusd_helio_bradley.png" title="EUR/USD and Heliocentric Bradley"><img src="http://soulytion.de/wp-content/uploads/2009/08/eurusd_helio_bradley.thumbnail.png" alt="EUR/USD and Heliocentric Bradley" /></a></p>
+<p align="left">Applied Indicators:</p>
+<p align="left">[PI] Bradley; set geocentric to false.</p>
+<p align="left">First symbol in the chart is the calendar symbol (I made it invisible but it still extends date axis),<br />
+second symbol is EURUSD.</p>
+<p align="left">&nbsp;</p>
+
+				
+				<p class="postmetadata alt">
+					<small>
+						This entry was posted
+												on Sunday, August 30th, 2009 at 1:27 pm						and is filed under <a href="http://soulytion.de/archives/category/planetaryindicators/" title="View all posts in PlanetaryIndicators" rel="category tag">PlanetaryIndicators</a>.
+						You can follow any responses to this entry through the <a href='http://soulytion.de/archives/54/feed/'>RSS 2.0</a> feed.
+
+													You can skip to the end and leave a response. Pinging is currently not allowed.
+
+						
+					</small>
+				</p>
+
+			</div>
+		</div>
+
+	
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+
+<h3 id="respond">Leave a Reply</h3>
+
+
+<form action="http://soulytion.de/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+<label for="author"><small>Name </small></label></p>
+
+<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+<label for="email"><small>Mail (will not be published) </small></label></p>
+
+<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+<label for="url"><small>Website</small></label></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;code&gt; &lt;em&gt; &lt;i&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type="hidden" name="comment_post_ID" value="54" />
+</p>
+		<script type='text/javascript'>
+				var RecaptchaOptions = { theme : 'red', lang : 'en' , tabindex : 5 };
+		</script><script type="text/javascript" src="http://api.recaptcha.net/challenge?k=6LeRRAcAAAAAAJwchT0XYRKU7FlAkf43DTR_Yoe9"></script>
+
+<noscript>
+<iframe src="http://api.recaptcha.net/noscript?k=6LeRRAcAAAAAAJwchT0XYRKU7FlAkf43DTR_Yoe9" height="300" width="500" frameborder="0"></iframe><br/>
+<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+</noscript>				<div id="recaptcha-submit-btn-area"></div> 
+				<script type='text/javascript'>
+				var sub = document.getElementById('submit');
+				sub.parentNode.removeChild(sub);
+				document.getElementById('recaptcha-submit-btn-area').appendChild (sub);
+				document.getElementById('submit').tabIndex = 6;
+				if ( typeof _recaptcha_wordpress_savedcomment != 'undefined') {
+						document.getElementById('comment').value = _recaptcha_wordpress_savedcomment;
+				}
+				document.getElementById('recaptcha_table').style.direction = 'ltr';
+				</script>
+				<noscript>
+				 <style type='text/css'>#submit {display:none;}</style>
+				 <input name="submit" type="submit" id="submit-alt" tabindex="6" value="Submit Comment"/> 
+				</noscript>
+</form>
+
+
+
+	
+	</div>
+
+
+<hr />
+<div id="footer">
+<!-- If you'd like to support WordPress, having the "powered by" link someone on your blog is the best way, it's our only promotion or advertising. -->
+	<p>
+		soulytion.de is proudly powered by
+		<a href="http://wordpress.org/">WordPress</a>
+		<br /><a href="http://soulytion.de/feed/">Entries (RSS)</a>
+		and <a href="http://soulytion.de/comments/feed/">Comments (RSS)</a>.
+		<!-- 17 queries. 0.257 seconds. -->
+	</p>
+</div>
+</div>
+
+<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
+
+		</body>
+</html>

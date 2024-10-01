@@ -7,6 +7,16 @@ layout: layouts/home.njk
 <ul>
 {% for tag in collections.all | getAllTags | filterTagList %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+
+{% set num %}0{% endset %}
+ {%- for tag2, posts2 in collections | dictsort %}
+ {%if tag2 == tag %}
+  {% set num %}{{ posts2 | length }}{% endset %}
+{% endif %}
+  {%- endfor %}
+
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }} ({{ num }} posts)</a></li>
+
 {% endfor %}
 </ul>
+

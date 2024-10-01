@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title>Update: Adam Projection for TradeStation | soulytion.de</title>
+<link rel="pingback" href="http://soulytion.de/xmlrpc.php">
+<link rel="stylesheet" type="text/css" media="all" href="http://soulytion.de/wp-content/themes/yume/style.css " />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="soulytion.de &raquo; Feed" href="http://soulytion.de/feed" />
+<link rel="alternate" type="application/rss+xml" title="soulytion.de &raquo; Comments Feed" href="http://soulytion.de/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="soulytion.de &raquo; Update: Adam Projection for TradeStation Comments Feed" href="http://soulytion.de/archives/42/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/soulytion.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<script type='text/javascript' src='http://soulytion.de/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://soulytion.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://soulytion.de/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://soulytion.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://soulytion.de/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='New Version of astro lib for TradeStation' href='http://soulytion.de/archives/41' />
+<link rel='next' title='Excel-Export aus Tradesignal' href='http://soulytion.de/archives/84' />
+<meta name="generator" content="WordPress 4.9.4" />
+<link rel="canonical" href="http://soulytion.de/archives/42" />
+<link rel='shortlink' href='http://soulytion.de/?p=42' />
+<link rel="alternate" type="application/json+oembed" href="http://soulytion.de/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsoulytion.de%2Farchives%2F42" />
+<link rel="alternate" type="text/xml+oembed" href="http://soulytion.de/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fsoulytion.de%2Farchives%2F42&#038;format=xml" />
+</head>
+<body class="post-template-default single single-post postid-42 single-format-standard">
+	<div id="wrapper">
+		<div id="header">
+			<div class="center">
+				<div class="fullwidth">
+					<div class="topbar">
+						<form id="s" action="http://soulytion.de/" method="post" enctype="multipart/form-data">
+							<label for="search">Search Here...</label>
+							<input id="search" name="s" type="text" value="" />
+							<input id="button" name="submit" type="submit" value="" />
+						</form>
+					</div>
+											<a class="logo" href="http://soulytion.de/">soulytion.de</a></h1><p class="usr">souly&#8217;s coding-for-trading solutions										<div class="menuwrapp">
+												   <ul class="menu"><li id="menu-item-121" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-121"><a href="http://soulytion.de/archives/category/tradestation">TradeStation</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-122"><a href="http://soulytion.de/archives/category/planetaryindicators">PlanetaryIndicators</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-123"><a href="http://soulytion.de/archives/category/research">Research</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="http://soulytion.de/downloads">Downloads</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://soulytion.de/impressum">Impressum / contact</a></li>
+</ul>							
+					</div>
+					<div class="menuwrapp_mobile">
+						<a class="mobilemenu_toggle" href="#" >Menu</a>
+												   <ul class="menu_mobile"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-121"><a href="http://soulytion.de/archives/category/tradestation">TradeStation</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-122"><a href="http://soulytion.de/archives/category/planetaryindicators">PlanetaryIndicators</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-123"><a href="http://soulytion.de/archives/category/research">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="http://soulytion.de/downloads">Downloads</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://soulytion.de/impressum">Impressum / contact</a></li>
+</ul>										    </div>
+				</div>
+			</div>
+		</div>      <div id="content">
+			<div class="center">
+				<div class="columnwrapp nosidebar">
+					<div class="pagecontent innerpage">
+						<div class="fullwidth">
+																						<div class="postbox">
+									<div class="topbarpost">
+										<div class="fleft">Update: Adam Projection for TradeStation</div>
+									</div> 
+									<div class="postcontent">
+										 <ul class="singlecontent">
+											<li id="post-42" class="post-42 post type-post status-publish format-standard hentry category-tradestation tag-adam-projection">
+												<h2>Update: Adam Projection for TradeStation</h2>
+																								<p><p>Last year I posted the Adam ProjectionÂ for Tradestation (see <a href="http://soulytion.de/archives/8">original posting</a>).</p>
+<p>Since then I&#8217;ve made some minor modifications:</p>
+<ul>
+<li>fixed the Â position of the first projected bar</li>
+<li>fixed some update problems in intraday and life-ticking charts</li>
+<li>added supportÂ for changeÂ of color</li>
+</ul>
+<p>You find the new version here:</p>
+<p><a href="http://soulytion.de/wp-content/uploads/2008/04/adam.ZIP" title="Adam Projection Indicator for TradeStation">Adam Projection Indicator for TradeStation</a>Â (ZIP, 6kB)</p>
+<p>It has been tested with TS8 (actually 8.5, 8.6) and TS2000i.</p>
+<p>If you have questions, comments or suggestion, feel free to leave a comment or send me a <a href="http://soulytion.de/impressum/">mail</a>.</p>
+</p>
+												<p class="meta_tags">Categories: <a href="http://soulytion.de/archives/category/tradestation" rel="category tag">TradeStation</a></p>
+								                <p class="meta_tags">Tags: <a href="http://soulytion.de/archives/tag/adam-projection" rel="tag">adam projection</a></p>
+																								<p></p>
+												<p class="pagination_single">
+													<span class="prev"><a href="http://soulytion.de/archives/41" rel="prev">New Version of astro lib for TradeStation</a></span>
+													<span class="next"><a href="http://soulytion.de/archives/84" rel="next">Excel-Export aus Tradesignal</a></span>
+												</p>
+												<div class="clear"></div>
+												<div id="comments">
+													<div class="comments">
+			<p></p>
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/archives/42#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://soulytion.de/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name</label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" /></p>
+<p class="comment-form-email"><label for="email">Email</label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='42' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d5b7bd36cd" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="62"/></p>			</form>
+			</div><!-- #respond -->
+	</div>
+												</div>	
+											</li>								
+										 </ul>
+									</div> 
+								</div> 
+																				</div> 
+					</div> 
+                   <div class="sidebar">
+    <div class="fullwidth">
+	    					
+			<div class="post">
+				<div class="topbarpost"><div class="fleft">Search</div></div>
+				<form role="search" method="get" id="searchform" class="searchform" action="http://soulytion.de/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>				
+			</div>
+			<div class="post">
+				<div class="topbarpost"><div class="fleft">Recent Posts</div></div>
+				<ul>
+						<li><a href='http://soulytion.de/archives/209'>Update on S&#038;P and 26 month cycle, 7 year cycle and Bradley</a></li>
+	<li><a href='http://soulytion.de/archives/200'>Heliocentric Bradley vs Gold and Bonds</a></li>
+	<li><a href='http://soulytion.de/archives/159'>Cycle Analysis S&#038;P500</a></li>
+	<li><a href='http://soulytion.de/archives/155'>Restart 2018</a></li>
+	<li><a href='http://soulytion.de/archives/115'>Commitment of Traders: Sell signal in my new COT indicator</a></li>
+	<li><a href='http://soulytion.de/archives/112'>Mid-November Low in S&#038;P500</a></li>
+	<li><a href='http://soulytion.de/archives/109'>Book recommendation: Timing Solutions for Swing Traders</a></li>
+	<li><a href='http://soulytion.de/archives/108'>S&#038;P: Time for a Turn?</a></li>
+	<li><a href='http://soulytion.de/archives/104'>Indication of Planetary Returns in Tradestation</a></li>
+	<li><a href='http://soulytion.de/archives/102'>Paintbar Study Showing when a Planet is in a Certain Sign</a></li>
+				</ul>
+			</div>
+			<div class="post">
+				<div class="topbarpost"><div class="fleft">Pages</div></div>
+				<ul>
+					<li class="page_item page-item-71"><a href="http://soulytion.de/downloads">Downloads</a></li>
+<li class="page_item page-item-6"><a href="http://soulytion.de/impressum">Impressum / contact</a></li>
+<li class="page_item page-item-131"><a href="http://soulytion.de/planetary-indicators">Planetary Indicators</a></li>
+<li class="page_item page-item-125"><a href="http://soulytion.de/tradestation">Tradestation</a></li>
+				</ul>
+			</div>
+			<div class="post">
+				<div class="topbarpost"><div class="fleft">Tag Cloud</div></div>
+				 <ul>
+					<a href="http://soulytion.de/archives/tag/adam-projection" class="tag-cloud-link tag-link-14 tag-link-position-1" style="font-size: 22pt;" aria-label="adam projection (2 items)">adam projection</a>
+<a href="http://soulytion.de/archives/tag/bradley" class="tag-cloud-link tag-link-13 tag-link-position-2" style="font-size: 8pt;" aria-label="Bradley (1 item)">Bradley</a>
+<a href="http://soulytion.de/archives/tag/cot" class="tag-cloud-link tag-link-12 tag-link-position-3" style="font-size: 8pt;" aria-label="COT (1 item)">COT</a>
+<a href="http://soulytion.de/archives/tag/cycles" class="tag-cloud-link tag-link-15 tag-link-position-4" style="font-size: 8pt;" aria-label="cycles (1 item)">cycles</a>				</ul>
+			</div>				
+			
+	</div>
+</div>					</div>
+			</div>
+      </div>
+		<div id="footer">
+			<div class="center columnwrapp">
+				<div class="column5">
+									</div>
+				<div class="column5">
+									</div>
+				<div class="column5">
+									</div> 
+				<div class="column5">
+									</div>
+				<div class="column5">
+									</div>
+			</div>
+			<div class="gotopwrapp">
+				<div class="center columnwrapp">
+					<div class="fullwidth">
+					    <p class="footer_text">Copyright © 2010-2018 soulytion.de</p>
+						<p class="footer_text textright">Theme created by <a href="http://www.pwtthemes.com/">PWT</a>. Powered by <a href="http://wordpress.org/">WordPress.org</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type='text/javascript' src='http://soulytion.de/wp-content/themes/yume/js/main.js?ver=1.0'></script>
+<script type='text/javascript' src='http://soulytion.de/wp-includes/js/comment-reply.min.js?ver=4.9.4'></script>
+<script type='text/javascript' src='http://soulytion.de/wp-includes/js/wp-embed.min.js?ver=4.9.4'></script>
+<script async="async" type='text/javascript' src='http://soulytion.de/wp-content/plugins/akismet/_inc/form.js?ver=4.0.3'></script>
+		
+</body>
+</html>

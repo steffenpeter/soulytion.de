@@ -1,0 +1,28 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Tradestation
+  order: 1
+---
+{% set tag = "tradestation" %}
+
+<div id="post-125" class="post-115 post type-post status-publish format-standard has-post-thumbnail hentry category-research category-tradestation">
+		<div class="topbarpost">
+				<div class="fleft">TRADESTATION</div>
+		</div>
+		<div class="postcontent">
+<p><a href="http://www.tradestation.com"><img class="size-full wp-image-127 alignright" src="/img/tsaddon_opd-150x62.jpg" alt="tsaddon_opd-150x62" width="150" height="62"></a><a href="http://www.tradestation.com">TradeStation</a> is a powerful and professional platform for trading, for following the market, and for the development of indicators, tools and strategies. Tradestation’s programming language is EasyLanguage. I’ve been professional Tradestation Add-On developer for more than 10 years. Below you can find examples for my indicators and tools for Tradestation.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+		</div>
+		</div>
+
+{% set postslist = collections[ tag ] %}
+{% include "postslist.njk" %}
+
+{# set tf = "./_includes/tags/"+tag | slugify+".md" #}
+{# renderFile tf #}
+{# include tf ignore missing #}
+
+<p>See <a href="/tags/">all tags</a>.</p>
